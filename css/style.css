@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #DEDEDE;
+}
+.genderize-nationalize {
+    width: 480px;
+    margin: 50px auto;
+}
+.genderize-nationalize__form {
+    margin-bottom: 8px;
+    display: flex;
+}
+.genderize-nationalize__input,
+.genderize-nationalize__submit,
+.genderize-nationalize__result {
+    font-size: 20px;
+    font-family: inherit;
+    color: #202020;
+    padding: 14px 12px;
+    outline: none;
+    border: 1px solid #989898;
+    border-radius: 6px;
+}
+.genderize-nationalize__input::placeholder {
+    color: #BBBBBB;
+}
+.genderize-nationalize__input { 
+    background-color: #fff;
+    flex: 1;
+    margin-right: 8px;
+}
+.genderize-nationalize__submit {
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+.genderize-nationalize__result {
+    font-size: 30px;
+    background-color: #fff;
+}
